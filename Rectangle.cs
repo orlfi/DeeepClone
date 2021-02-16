@@ -1,7 +1,5 @@
 using System;
-using System.IO;
 using System.Text.Json;
-using System.Text.Json.Serialization;
 
 namespace DeepClone 
 {
@@ -22,7 +20,7 @@ namespace DeepClone
         {
             Position = position;
         }
-        
+
         public iClone Clone()
         {
             Rectangle result = null;
