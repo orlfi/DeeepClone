@@ -33,5 +33,10 @@ namespace DeepClone
         {
             throw new NotImplementedException();
         }
+
+        public override string ToString()
+        {
+            return $"X:{Position.X} Y:{Position.Y} W:{Width} H:{Height}";
+        }
     }
 }
